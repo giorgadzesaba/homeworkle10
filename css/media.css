@@ -1,0 +1,39 @@
+@media (max-width: 1024px) {
+    .container {
+        width: 95%;
+    }
+}
+
+@media (max-width: px) {
+    .cardswrapper {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 720px) {
+    nav {
+        display: none;
+    }
+    .fa-bars {
+        display: inline-block;
+    }
+    .section2flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .infobox {
+        width: 70%;
+        margin-bottom: 50px;
+    }
+    .infobox h4,
+    .infobox h3,
+    .infobox p {
+        text-align: center;
+    }
+}
+@media (max-width: 380px) {
+    .card h4,
+    .card p {
+        text-align: center;
+    }
+}
